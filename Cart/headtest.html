@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+      
+    </head>
+
+   
+        <header>
+        
+            
+            <nav>
+            <ul>
+                <h1>WANANCHI STORE</h1>
+                <li ><a href="store.html">HOME</a></li>
+                <li ><a href="about.html">ABOUT</a></li>
+                
+            </ul></nav>
+          
+        </header>
+        <div class="bag">
+            <img style="width: 46px; height:46px;margin-top:100px;" src="Cart_pic.png"><br>
+            <li class="count">Cart Add:<span>0</span></li>
+            </div>
+        <body>
+      
+
+     <div class="products-container">
+         <div class="products-header">
+         <h5 class="product-title">ITEM</h5>
+          <h5 class="quantity">QUANTITY</h5>
+          <h5 class="price">TOTAL PRICE</h5>
+          <!--h5 class="total">TOTAL</h5-->
+         
+          <button type="button" onclick="print()">Print receipt</button>&nbsp;&nbsp;
+         <button type="button">Buy Items</button>
+        </div>
+        <div class="product">
+        </div>
+       
+     </div>
+      <script src="shopping.js"></script>
+
+     
+      <div class="scroll">
+        <img src="./images/scroll_up2.png"/>
+       
+    </div>
+    <script>
+        const scroll = document.querySelector(".scroll");
+
+        scroll.addEventListener('click',function(){
+        window.scrollTo(0,0);
+        });
+
+          </script>
+   
+        </body>
+    </html>
